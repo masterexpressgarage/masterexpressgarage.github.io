@@ -173,6 +173,7 @@
     });
 
     // Intro carousel
+    /*
     var introCarousel = $(".carousel");
     var introCarouselIndicators = $(".carousel-indicators");
     introCarousel
@@ -217,6 +218,7 @@
         },
         allowPageScroll: "vertical",
     });
+    */
 
     // Skills section
     $("#skills").waypoint(
@@ -256,6 +258,7 @@
         $(".venobox").venobox();
     });
 
+    /*
     // Clients carousel (uses the Owl Carousel library)
     $(".clients-carousel").owlCarousel({
         autoplay: true,
@@ -273,6 +276,7 @@
             },
         },
     });
+    */
 
     // Testimonials carousel (uses the Owl Carousel library)
     $(".testimonials-carousel").owlCarousel({
